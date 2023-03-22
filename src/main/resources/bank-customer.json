@@ -1,0 +1,26 @@
+{
+  "accounts": [
+    {
+      "id": "checking-account",
+      "currencyType": "USD",
+      "transactions": [
+        4800,
+        -2400,
+        1000,
+        -4.9
+      ]
+    },
+    {
+      "id": "savings-account",
+      "currencyType": "USD",
+      "transactions": [
+        100,
+        -200,
+        -50
+      ]
+    }
+  ],
+  "holder": {
+    "name": "John Smith"
+  }
+}
