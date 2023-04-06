@@ -1,4 +1,4 @@
-The file BankCustomer defines a Bank Interface.
+The file BankCustomer defines a BankCustomer Interface.
 Your aim is to provide an implementation in BankCustomerImpl.
 
 To Run from command line: `gradlew.bat bootRun`
