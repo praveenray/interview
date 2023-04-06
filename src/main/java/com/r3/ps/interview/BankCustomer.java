@@ -10,7 +10,7 @@ package com.r3.ps.interview;
 public interface BankCustomer {
     /** Customer's Name */
     public String getCustomerName();
-    /** Returns a current balance for account with [accountId] */
+    /** Returns current balance for account with [accountId] */
     public Double getBalance(String accountId);
 
     /** Charge account with [accountId] for [amount] and returns the updated balance for the account.
