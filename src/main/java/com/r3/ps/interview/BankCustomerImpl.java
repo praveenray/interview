@@ -15,7 +15,7 @@ public class BankCustomerImpl implements BankCustomer {
     }
 
     @Override
-    public Double spend(String accountId, Double amount) throws BankException {
+    public Double performTransaction(String accountId, Double amount) throws BankException {
         return null;
     }
 
