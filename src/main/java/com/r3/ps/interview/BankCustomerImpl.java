@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class BankCustomerImpl implements BankCustomer {
     @Override
-    public String getHolderName() {
+    public String getCustomerName() {
         return "Implement me";
     }
 
