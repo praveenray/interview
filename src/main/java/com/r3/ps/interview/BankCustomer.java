@@ -1,11 +1,11 @@
 package com.r3.ps.interview;
 
 /**
- 4  * Represents One Customer of a Retail Bank
- 5  * A Customer has multiple accounts (e.g. Checking, Savings, Money Market)
- 6  * An Account has :
- 7  *      a list of Transactions (debits, credits)
- 8  *      a Balance
+ * Represents One Customer of a Retail Bank
+ * A Customer has multiple accounts (e.g. Checking, Savings, Money Market)
+ * An Account has :
+ *      a list of Transactions (debits, credits)
+ *      a Balance
 */
 public interface BankCustomer {
     /** Customer's Name */
