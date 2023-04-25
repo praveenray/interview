@@ -16,7 +16,7 @@ public class Application {
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
             BankCustomer bank = new BankCustomerImpl();
-            System.out.println("*****\n\n\nBank " + bank);
+            System.out.println("****\nBank " + bank + "\n****");
         };
     }
 }

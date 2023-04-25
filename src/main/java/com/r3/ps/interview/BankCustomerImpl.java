@@ -15,12 +15,17 @@ public class BankCustomerImpl implements BankCustomer {
     }
 
     @Override
-    public Double performTransaction(String accountId, Double amount) throws BankException {
+    public Double performTransaction(String accountId, Double amount) {
         return null;
     }
 
     @Override
     public String toJSON() {
         return "implement me";
+    }
+
+    @Override
+    public String toString() {
+        return toJSON();
     }
 }
